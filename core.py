@@ -1,4 +1,5 @@
 import os
+from os.path import exists
 import enum
 
 class FVM(enum.Enum): # short for FaceVerificationModel
@@ -6,6 +7,8 @@ class FVM(enum.Enum): # short for FaceVerificationModel
     facenet = "Facenet"
     facenet512 = "Facenet512"
     openface = "OpenFace"
+    deepface = "DeepFace"
+    deep_id = "DeepID"
     
 class GBU(enum.Enum):
     good = "Good"
