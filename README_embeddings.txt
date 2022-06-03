@@ -15,3 +15,6 @@ The structure should result as follows:
 -> core.py
 -> create_embeddings_script.ipynb
 ... etc
+
+
+Also note that you don't need to run anything in the create_embeddings_script.ipynb file if you just directly download the resulting files from the above link.
